@@ -1,6 +1,6 @@
 CONSULTA DOCUMENTADA
-1. ¿De donde sale?   Direccion o ruta exacta: ___    Fecha del corte de la fuente: ___
-2. ¿Que se pidio?    Parametros (juntos, con su valor): ___
-3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados: ___
-4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: ___
-5. ¿Quien y cuando?  Autor: ___    Fecha: ___    Licencia de la fuente (o 'no la declara'): ___
+1. ¿De donde sale?   Direccion o ruta exacta: datos/exportaciones.csv archivo sintetico    Fecha del corte de la fuente: no especificado, fecha de almacenamiento: 27 10 2026
+2. ¿Que se pidio?    Parametros (juntos, con su valor): RUTA_ENTRADA='datos/exportaciones.csv'; FILAS_ESPERADAS=6; TOTAL_ESPERADO=8679.13
+3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados: 6 filas, columnas producto y monto_mm_usd; suma de monto = 8679.13
+4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: Transformaciones, cada una con lo que debe hacer, leer csv, validar filas y columnas, quitar espacios vacios y montos nulos.
+5. ¿Quien y cuando?  Autor: no especifica    Fecha: 2026-10-27    Licencia de la fuente (o 'no la declara'): NO DECLARA
